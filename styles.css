@@ -1,0 +1,513 @@
+html {
+    background-color: black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+head {
+    color: black;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.Container-Header{
+    background-color: black;
+}
+.Navbar{
+    background-color: black;
+    padding: 5px 10px 10px;
+}
+.Navbar{
+    background-color: black;
+    padding: 5px 10px 10px;
+}
+.heat{
+    color: white;
+    padding-left: 30px;
+}
+.heat h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+.heat p{
+    font-size: 125x;
+    margin-top: -15px;
+    font-weight: lighter;
+    margin-left: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heat img{
+    width: 50px;
+}
+.Navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.Navbar ul{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.Navbar ul li{
+    margin-top: 20px;
+    display: inline;
+    float: right;
+}
+.Navbar ul li a{
+    display: inline;
+    color: white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 25px;
+}
+.Navbar ul li a:hover{
+    display: inline;
+    color: lightblue;
+    font-size: 18px;
+}
+
+
+.container-body{
+    margin-top: 90px;
+    color: white;
+    height: 600px;
+    background-image: url(Assets/Background.png);
+    background-size: cover;
+    padding-left: 15%;
+}
+.container-body .text h1{
+    font-size: 70px;
+}
+.container-body .text p{
+    margin-top: -30px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.container-body .text h6{
+    text-align: center;
+    margin-top: 450px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    visibility: hidden;
+}
+#searchbar .box button:hover{
+    color: darkblue;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.Navbar .dropdown{
+    display: none;
+}
+/* mobile */
+@media screen and (max-width: 513px) {
+    html{
+        overflow-x: hidden;
+    }
+    .Navbar ul li a{
+        display: none;
+    }
+    .Navbar .dropdown{
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 30px;
+        position: relative;
+    }
+    .Navbar .dropdown .dropbutt {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        margin-right: 20px;
+        font-size: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+    .Navbar .dropdown .dropbutt:hover, .dropbutt:focus {
+        background-color: #2980B9;
+      }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+      }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border: none;
+      }
+      
+    .Navbar .dropdown a:hover {
+          background-color: lightblue;
+        }
+      
+      .show {display: block;}
+    /* Navbar */
+    #searchbar .box{
+        visibility: hidden;
+   }
+   .heat img{
+    visibility: hidden;
+    }
+    .heat h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin-top: -50px;
+        margin-left: 7px;
+        font-size: 15px;
+    }
+    .heat p{
+        font-size: 12x;
+        margin-top: -15px;
+        font-weight: lighter;
+        margin-left: 7px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .container-body .text h1{
+        font-size: 25px;
+    }
+    .container-body .text p{
+        margin-top: 20px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .container-body .text h6{
+        visibility: visible;
+        background-color:rgba(255,100,255,0.5); 
+        margin-top: 250px;
+        margin-right: 30px;
+    }
+    .container-body aside{  
+        visibility: hidden;
+    }
+}
+.container-body aside{
+    background-color: rgba(255,100,150,0.5); 
+    overflow: hidden;
+    width: 150px;
+    padding: 10px;
+    margin-left: 80%;
+    margin-top: -600px;
+    height: 200px;
+}
+.underbody{
+    margin-top: -20px;
+    background-color: darkslategray;
+}
+.underbody .judul{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.underbody .content {
+    display: flex;
+   
+}
+
+.underbody .content .cm {
+    flex-grow: 2;
+    background-image: url(Assets/lalaland.jpg);
+    background-color: rgba(205,250,250,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+.underbody .content .cm .detailm {
+    background-color: rgba(100,100,150,0.3);
+    background-blend-mode: lighten;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.underbody .content .cm h2:hover {
+    color: white;
+    cursor: pointer;
+}
+.underbody .content .cr h2:hover {
+    color: white;
+    cursor: pointer;
+}
+.underbody .content .cl h2:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+.underbody .content h2{
+    text-align: center;
+}
+.underbody .content img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+}
+@media screen and (max-width: 513px) {
+.underbody .content{
+    display: flex;
+    flex-direction: column;
+}
+}
+.underbody .content .cr{
+    flex-grow: 1;
+    background-image: url(Assets/inception.png);
+    background-color: rgba(205,250,250,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    padding-bottom: 10px;
+}
+.underbody .content p{
+    margin-top: -20px;
+    font-size: 18px;
+}
+.underbody .content h4{
+    margin-top: -20px;
+    font-size: 18px;
+}
+.underbody .content .cr .detailr {
+    background-color: rgba(100,100,100,0.1);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-blend-mode: lighten;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.underbody .content .cl{
+    flex-grow: 1;
+    background-image: url(Assets/Pulp.jpg);
+    background-color: rgba(205,250,250,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    padding-bottom: 10px;
+}
+.underbody .content .cl .detaill {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgba(255,100,150,0.3);
+    background-blend-mode: lighten;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.series .sercon h2{
+    text-align: center;
+}
+.series .sercon img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+}
+.series .serti{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.series .sercon {
+    display: flex;
+   
+}
+.series .sercon .sr{
+    flex-grow: 1;
+    background-image: url(Assets/brooklyn.jpg);
+    background-color: rgba(205,250,250,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    padding-bottom: 10px;
+}
+.series .sercon .sr h2:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.series .sercon .sm h2:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.series .sercon .sl h2:hover{
+    color: darkblue;
+    cursor: pointer;
+
+}
+.series .sercon .sr .seriesr{
+    background-color: rgba(100,100,100,0.1);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-blend-mode: lighten;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.series .sercon .sm {
+    flex-grow: 2;
+    background-image: url(Assets/all\ of\ us\ ar\ dead.jpg);
+    background-color: rgba(205,250,250,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+.series .sercon .sm .seriesm{
+    background-color: rgba(100,100,100,0.1);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-blend-mode: lighten;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.series .sercon .sl {
+    flex-grow: 1;
+    background-image: url(Assets/how\ i\ met\ your\ mother.jpg);
+    background-color: rgba(205,250,250,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+}
+.series .sercon .sl .seriesl{
+    background-color: rgba(100,100,100,0.1);
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    background-blend-mode: lighten;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.series .sercon p{
+    margin-top: -20px;
+    font-size: 18px;
+}
+.series .sercon h4{
+    margin-top: -10px;
+    font-size: 18px;
+}
+@media screen and (max-width: 513px) {
+    .series .sercon{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+.biodata{
+    flex-grow: 1;
+    border: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: darkcyan;
+    padding-left: 20%;
+    height: 400px;
+    width: 400px;
+}
+.biodata img{
+    border: none;
+    border-radius: 100px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: -200px;
+}
+.biodata h4 {
+    margin-top: -200px;
+    color: white;
+    padding-left: 40px;
+}
+.biodata p {
+    margin-top: -5px;
+    padding-bottom: 10px;
+    color: white;
+    padding-left: 40px;
+}
+.jumbotron {
+    flex-grow: 1;
+}
+.jumbotron img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height:500px;
+    border: none;
+    border-radius: 20px;
+}
+.upfooter{
+    display: flex;
+    background-image: url(Assets/Bioskop.jpg);
+    background-size:contain;
+    background-repeat: repeat;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 513px) {
+    .jumbotron img{
+        display: none;
+    }
+    .upfooter{
+        display: block;
+        margin-right: 120px;
+    }
+    .biodata{
+        margin-right: 40px;
+    }
+    .biodata img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        margin-top: -20px;
+    }
+    .biodata p{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .biodata h4 {
+        margin-top: 30px;
+        color: white;
+        padding-left: 40px;
+    }
+}
+footer{
+    background-color: wheat;
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+}
+footer p{
+    color: black;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -25px;
+    padding-bottom: 10px;
+
+}
+footer img{
+    padding-top: 10px;
+    padding-left: 20px;
+}
